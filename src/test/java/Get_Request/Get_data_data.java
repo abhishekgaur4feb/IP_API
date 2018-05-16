@@ -33,7 +33,7 @@ public class Get_data_data {
 		}
 		System.out.println("Code obtained -->"+code);
 		try{
-		Assert.assertEquals(code, 201);
+		Assert.assertEquals(code, 200);
 		 }catch(AssertionError e)
         {            System.out.println("Assertion error -->"+e);
         }
