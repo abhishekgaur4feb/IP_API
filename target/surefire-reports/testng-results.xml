@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17838" started-at="2018-05-16T10:17:56Z" finished-at="2018-05-16T10:18:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17838" started-at="2018-05-16T10:17:56Z" finished-at="2018-05-16T10:18:13Z">
+      <class name="Get_Request.Get_data_data">
+        <test-method status="PASS" signature="Get_Responsedata_live()[pri:0, instance:Get_Request.Get_data_data@45c8e616]" name="Get_Responsedata_live" duration-ms="3836" started-at="2018-05-16T15:47:56Z" finished-at="2018-05-16T15:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Responsedata_live -->
+        <test-method status="PASS" signature="Get_test_response()[pri:0, instance:Get_Request.Get_data_data@45c8e616]" name="Get_test_response" duration-ms="12230" started-at="2018-05-16T15:47:59Z" finished-at="2018-05-16T15:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_test_response -->
+        <test-method status="PASS" signature="Parse_JSON()[pri:0, instance:Get_Request.Get_data_data@45c8e616]" name="Parse_JSON" duration-ms="1749" started-at="2018-05-16T15:48:12Z" finished-at="2018-05-16T15:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parse_JSON -->
+      </class> <!-- Get_Request.Get_data_data -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

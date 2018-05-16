@@ -1,0 +1,20 @@
+Used for testing all Url link--> https:reqres.in/
+
+
+https://github.com/typicode/json-server#install
+		
+GET--> https://reqres.in/api/users?page=2(RESPONSE:200)
+		
+POST--> https:reqres.in/api/users(RESPONSE:201)
+Body 
+{
+"name": "morpheus",
+"job": "leader"
+}
+PUT-->https:reqres.in/api/users/2(RESPONSE:200)
+BODY
+{
+   "name": "morpheus",
+   "job": "zion resident"
+}
+Delete-->https:reqres.in/api/users/2(RESPONSE--204)
