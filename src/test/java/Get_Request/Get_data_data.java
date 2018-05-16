@@ -28,7 +28,7 @@ public class Get_data_data {
 		System.out.println("Url fetched from Property File-->"+url_link);
 		Response resp=RestAssured.get(url_link);
 		int code= resp.getStatusCode();
-		if(code == 200){
+		if(code != 200){
 			es.testmail();
 		}
 		System.out.println("Code obtained -->"+code);
