@@ -81,8 +81,8 @@ public class EmailAttachmentSender {
          String password = "Sparkle7@";
   
          // message info
-         //String mailTo = "alerts@rarecarat.com";
-         String mailTo = "abhishekgaur054@gmail.com";
+         String mailTo = "alerts@rarecarat.com";
+         //String mailTo = "abhishekgaur054@gmail.com";
          //mail.To.Add(mailTo);
          String subject = "IP API Service Status";
          String message = "Hi all,"+"<p/>"+"	IP API Service is Down.Kindly Check the Reason Behind."+ "<p/>"+"Regards"+ "<p/>"+"Abhishek Gaur";
